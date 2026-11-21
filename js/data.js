@@ -521,63 +521,18 @@ window.CLINIC_DATA = {
     },
   ],
 
-  patientNotes: [
-    {
-      id: 'note-fasting',
-      date: 'Patient Guide · Blood Tests',
-      title: 'What does “fasting” actually mean before a blood test — and what about water or morning tablets?',
-      summary:
-        'A plain-English guide to the 8–12 hour fasting window, why black tea or milk affects results, and how to handle blood pressure or thyroid medicines.',
-      readTime: '3 min read',
-      paragraphs: [
-        '“Come on an empty stomach” is the instruction patients hear most often — and also the one that causes the most confusion at 7:00 AM.',
-        'For Fasting Blood Sugar (FBS), you need 8 to 10 hours without food or caloric drinks. For a Complete Lipid Profile (cholesterol and triglycerides), 10 to 12 hours overnight is ideal. That means finishing dinner by 8:30 or 9:00 PM and giving your sample between 7:30 and 9:30 AM the next morning.',
-        'Plain water is completely fine — in fact, drinking a glass of plain water keeps you hydrated and makes blood collection noticeably easier. Avoid tea, coffee (even without sugar), milk, fruit juice, biscuits, or chewing gum until after the draw.',
-        'What about regular medicines? Routine blood pressure and heart tablets should usually be taken on schedule with a sip of plain water. If you take diabetes medication or thyroid tablets, confirm with your physician or call our reception desk at +91 80803 65359 the evening before so we can time your draw properly.',
-      ],
-    },
-    {
-      id: 'note-monsoon-fever',
-      date: 'Mumbai Seasonal Care · Haematology',
-      title: 'Mumbai monsoon fevers: When should you test for Malaria, Dengue, or Typhoid?',
-      summary:
-        'Why testing on Day 1 versus Day 3 matters, what platelet trends actually tell your doctor, and how to avoid unnecessary repeat pokes.',
-      readTime: '3 min read',
-      paragraphs: [
-        'Every Mumbai monsoon brings a wave of sudden high fevers, body aches, and chills. Because Malaria, Dengue, viral flu, and Typhoid often start with nearly identical symptoms, timing the right blood test makes a real difference.',
-        'A Complete Blood Count (CBC) with a manual peripheral smear review for Malarial Parasite is helpful even early in the fever, especially if chills are present. For Dengue, the NS1 antigen test is most sensitive during the first 1 to 4 days of fever, whereas IgM/IgG antibodies typically appear after Day 4 or 5.',
-        'When monitoring Dengue or viral fevers, a single platelet reading is less informative than the daily trend alongside your haematocrit (PCV) and white blood cell count. Because Dr. Menezes reviews smears personally, platelet clumping — a common cause of falsely low machine counts — is verified directly under the microscope.',
-        'Always share how many days the fever has lasted when you call or visit; it helps your physician and the lab choose the exact test needed rather than an oversized panel.',
-      ],
-    },
-    {
-      id: 'note-fnac-biopsy',
-      date: 'Specialist Pathology · Cytology & Biopsy',
-      title: 'Your doctor advised an FNAC or biopsy — what happens during the visit and why does it take a few days?',
-      summary:
-        'Reassuring, step-by-step answers on what FNAC feels like, what records to carry, and the careful laboratory work behind a histopathology report.',
-      readTime: '4 min read',
-      paragraphs: [
-        'Hearing the words “FNAC” or “biopsy” naturally makes most patients and families anxious. Understanding what actually happens usually brings immediate relief.',
-        'Fine Needle Aspiration Cytology (FNAC) is a brief, office-based procedure performed personally by Dr. Menezes. Using a very fine needle — thinner than a standard blood-draw needle — a few drops of cells are gently sampled from a palpable thyroid, lymph node, breast, or soft-tissue swelling. No fasting is needed, it takes only a few minutes, and you can walk out and resume your day right away.',
-        'Please bring your doctor’s note along with any ultrasound (USG), CT, or earlier scan reports — correlating what the imaging shows with what appears under the microscope leads to the clearest diagnosis.',
-        'Why do surgical biopsies take 3 to 5 working days while routine blood tests are ready the same evening? Tissue specimens must be properly fixed in formalin, carefully grossed, dehydrated overnight, embedded in paraffin wax, sliced into micron-thin ribbons, stained, and examined patiently slide by slide. Taking that time is what guarantees an answer your surgeon can rely on.',
-      ],
-    },
-  ],
-
   assistantQuickQuestions: [
     {
       id: 'q-hours',
       label: 'When are you open?',
       answer:
-        'We are open Monday to Saturday, 8:00 AM to 7:00 PM (closed on Sundays). Fasting blood collection is best done between 8:00 AM and 10:30 AM. For early morning home collection (starting 7:30 AM), please call or WhatsApp +91 80803 65359 the evening before.',
+        'We are open Monday to Saturday, 8:00 AM to 7:00 PM (closed on Sundays). Fasting blood collection is best done between 8:00 AM and 10:30 AM. For early morning home collection (starting 7:30 AM), please call us the evening before.',
     },
     {
       id: 'q-home',
-      label: 'How do I book home collection?',
+      label: 'How do I book an appointment?',
       answer:
-        'We offer home sample collection across Mahim West, Mahim East, Dadar West, Shivaji Park, Matunga, and Bandra West. You can select tests in our Test Directory and use the Home Collection form on this page, or message your prescription directly on WhatsApp at +91 80803 65359.',
+        'To book a clinic visit, FNAC consultation, or home sample collection across Mahim, Dadar, Matunga, and Bandra West, please call our reception desk directly using any Book Appointment button on this page.',
     },
     {
       id: 'q-fasting',
@@ -595,7 +550,7 @@ window.CLINIC_DATA = {
       id: 'q-reports',
       label: 'When will my report be ready?',
       answer:
-        'Most routine blood and urine tests (CBC, Sugar, Lipid, LFT, KFT, Thyroid) are ready the same evening after verification by Dr. Menezes. FNAC takes 24–48 hours, and Histopathology biopsies take 3–5 working days. Verified PDFs can be sent on WhatsApp.',
+        'Most routine blood and urine tests (CBC, Sugar, Lipid, LFT, KFT, Thyroid) are ready the same evening after verification by Dr. Menezes. FNAC takes 24–48 hours, and Histopathology biopsies take 3–5 working days.',
     },
   ],
 };
